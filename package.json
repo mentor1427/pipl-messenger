@@ -1,0 +1,15 @@
+{
+  "name": "pipl-messenger",
+  "version": "1.0.0",
+  "description": "Simple browser-based messenger",
+  "main": "pipl.py",
+  "scripts": {
+    "start": "python pipl.py"
+  },
+  "keywords": ["messenger", "chat", "browser"],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "python": "3.8"
+  }
+}
