@@ -445,8 +445,11 @@ def online():
     return jsonify(success=True, online=active), 200
 
 
+# Initialize app
+load_users()
+
+# For local development only
 if __name__ == '__main__':
-    load_users()
     port = int(os.environ.get('PORT', 8000))
     print("\n" + "="*60)
     print("🚀 МЕССЕНДЖЕР ЗАПУЩЕН!")
